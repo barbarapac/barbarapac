@@ -9,11 +9,13 @@
 ![Cshap](https://img.shields.io/badge/C%23-green)&nbsp;
 ![Docker](https://img.shields.io/badge/Docker-000?style=flat&logo=Docker&logoColor=blue)&nbsp;
 ![Ruby](https://img.shields.io/badge/-Ruby-000?style=flat&logo=Ruby&logoColor=red)&nbsp;
+![json](https://img.shields.io/badge/-json-000?style=flat&logo=json&logoColor=green)&nbsp;
 ![GraphQL](https://img.shields.io/badge/-GraphQL-000?style=flat&logo=GraphQL&logoColor=E10098)&nbsp;
 ![Git](https://img.shields.io/badge/-Git-000?style=flat&logo=git)&nbsp;
 ![GitHub](https://img.shields.io/badge/-GitHub-000?style=flat&logo=github)&nbsp;
 ![Visual Studio](https://img.shields.io/badge/-Visual%20Studio%20Code-000?style=flat&logo=visual-studio-code&logoColor=blueviolet)&nbsp;
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-000?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+![JetBrains](https://img.shields.io/badge/-JetBrains-000?style=flat&logo=jetbrains&logoColor=whait)&nbsp;
 ![Rider](https://img.shields.io/badge/-Rider-000?style=flat&logo=Rider&logoColor=red)&nbsp;
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?style=flat&logo=PostgreSQL&logoColor=336791)&nbsp;
 ![HTML](https://img.shields.io/badge/-HTML-000?style=flat&logo=HTML5)&nbsp;
