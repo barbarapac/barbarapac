@@ -1,5 +1,5 @@
 
-### Hi 👋
+### Hi, I'm Bárbara 👋
 💻 Back-end developer at [@Softplan](https://www.softplan.com.br/)  <br>
 🇧🇷 Brazilian <br>
 <br/>
