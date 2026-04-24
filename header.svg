@@ -98,7 +98,14 @@
   <text x="26" y="42" font-family="monospace" font-size="11" fill="#58a6ff">dotnet</text>
   <text x="72" y="42" font-family="monospace" font-size="11" fill="#c9d1d9">run</text>
 
-
+  <!-- Console.WriteLine("Hello, I'm Bárbara!"); com cores estilo VS Code -->
+  <text x="14" y="62" font-family="monospace" font-size="12" fill="#4ec9b0" style="animation: type1 2s steps(1) infinite;">Console</text>
+  <text x="72" y="62" font-family="monospace" font-size="12" fill="#c9d1d9" style="animation: type2 2s steps(1) infinite;">.</text>
+  <text x="79" y="62" font-family="monospace" font-size="12" fill="#dcdcaa" style="animation: type3 2s steps(1) infinite;">WriteLine</text>
+  <text x="147" y="62" font-family="monospace" font-size="12" fill="#c9d1d9" style="animation: type4 2s steps(1) infinite;">(</text>
+  <text x="154" y="62" font-family="monospace" font-size="12" fill="#ce9178" style="animation: type5 2s steps(1) infinite;">"Hello, I'm B&#225;rbara!"</text>
+  <text x="326" y="62" font-family="monospace" font-size="12" fill="#c9d1d9" style="animation: type6 2s steps(1) infinite;">);</text>
+  <rect x="348" y="51" width="7" height="13" fill="#58a6ff" class="px" style="animation: blink 1s steps(1) infinite;"/> 
 
   <!-- output -->
   <text x="14" y="84" font-family="monospace" font-size="18" font-weight="bold" fill="#ffffff" style="animation: glow-text 2s ease-in-out infinite; letter-spacing:1px;">Hello, I'm B&#225;rbara! &#128105;&#127995;&#8205;&#128187;</text>
