@@ -1,9 +1,8 @@
 <div align="center">
 
-
-```python
-Print("Hello, I'm Bárbara!") 👩🏻‍💻
-```
+<div align="center">
+  <img src="./header.svg" alt="Print Hello I'm Bárbara" />
+</div>
 
 **`Specialist Software Developer · C# & .NET`**
 
