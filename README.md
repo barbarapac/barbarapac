@@ -11,15 +11,13 @@
 
 </div>
 
----
-
-## Sobre mim
+### Sobre mim
 
 Sou Engenheira de Software formada pela **UTFPR** e atualmente cursando pós-graduação em **Arquitetura de Sistemas .NET** pela FIAP. Trabalho como desenvolvedora especialista Back-End, com foco em **C# e .NET Core**, construindo sistemas robustos, escaláveis e que realmente fazem diferença.
 
 Apaixonada por boas práticas, arquitetura limpa e aquele café que sustenta o segundo turno de PRs. ☕
 
-## 🛠️ Stack & Ferramentas
+### Stack & Ferramentas
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -54,7 +52,7 @@ Apaixonada por boas práticas, arquitetura limpa e aquele café que sustenta o s
 ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 
 
-## GitHub Stats
+### GitHub Stats
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=barbarapac&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true"/>
@@ -65,7 +63,7 @@ Apaixonada por boas práticas, arquitetura limpa e aquele café que sustenta o s
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=barbarapac&theme=tokyonight&hide_border=true" />
 </div>
 
-## Atualmente
+### Atualmente
 
 - 📚 Aprofundando em **Arquitetura de Sistemas .NET** na FIAP
 - 🔭 Explorando padrões avançados de **microserviços** e **event-driven architecture**
