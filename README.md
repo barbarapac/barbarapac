@@ -4,7 +4,7 @@
   <img src="./header.svg" alt="Print Hello I'm Bárbara" />
 </div>
 
-**`Specialist Software Developer · C# & .NET`**
+**`Software Developer · C# & .NET`**
 
 </div>
 
