@@ -1,0 +1,164 @@
+<svg width="100%" viewBox="0 0 680 200" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Pixel art header - Print Hello I'm Bárbara</title>
+<desc>Animação pixel art estilo retro com uma dev programando e texto piscando</desc>
+
+<style>
+  .px { shape-rendering: crispEdges; }
+  @keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+  @keyframes type1 { 0%,10%{opacity:0}11%,100%{opacity:1} }
+  @keyframes type2 { 0%,20%{opacity:0}21%,100%{opacity:1} }
+  @keyframes type3 { 0%,30%{opacity:0}31%,100%{opacity:1} }
+  @keyframes type4 { 0%,40%{opacity:0}41%,100%{opacity:1} }
+  @keyframes type5 { 0%,50%{opacity:0}51%,100%{opacity:1} }
+  @keyframes type6 { 0%,60%{opacity:0}61%,100%{opacity:1} }
+  @keyframes type7 { 0%,70%{opacity:0}71%,100%{opacity:1} }
+  @keyframes type8 { 0%,80%{opacity:0}81%,100%{opacity:1} }
+  @keyframes scanline {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(200px); }
+  }
+  @keyframes glow-text {
+    0%,100%{opacity:1} 50%{opacity:0.7}
+  }
+  @keyframes walk {
+    0%,100% { transform: translateY(0px); }
+    50% { transform: translateY(-2px); }
+  }
+  @keyframes arm {
+    0%,100%{transform-origin:36px 82px; transform:rotate(0deg)}
+    50%{transform-origin:36px 82px; transform:rotate(-15deg)}
+  }
+  @keyframes screen-flicker {
+    0%,98%,100%{opacity:1} 99%{opacity:0.85}
+  }
+</style>
+
+<!-- Background: dark terminal -->
+<rect width="680" height="200" fill="#0d1117" rx="12" class="px"/>
+
+<!-- Grid lines (subtle) -->
+<line x1="0" y1="0" x2="680" y2="0" stroke="#21262d" stroke-width="1"/>
+<line x1="0" y1="200" x2="680" y2="200" stroke="#21262d" stroke-width="1"/>
+
+<!-- === PIXEL ART CHARACTER (left side) === -->
+<g style="animation: walk 0.6s steps(1) infinite;">
+
+  <!-- Monitor -->
+  <rect x="20" y="60" width="72" height="52" fill="#161b22" rx="2" class="px"/>
+  <rect x="22" y="62" width="68" height="48" fill="#0d1117" class="px" style="animation: screen-flicker 4s infinite;"/>
+  <!-- Monitor stand -->
+  <rect x="50" y="112" width="12" height="8" fill="#30363d" class="px"/>
+  <rect x="40" y="118" width="32" height="4" fill="#30363d" class="px"/>
+
+  <!-- Code on screen -->
+  <rect x="26" y="66" width="32" height="3" fill="#58a6ff" rx="1" class="px" style="animation: type1 3s steps(1) infinite;"/>
+  <rect x="26" y="72" width="48" height="3" fill="#7ee787" rx="1" class="px" style="animation: type2 3s steps(1) infinite;"/>
+  <rect x="26" y="78" width="24" height="3" fill="#ff7b72" rx="1" class="px" style="animation: type3 3s steps(1) infinite;"/>
+  <rect x="26" y="84" width="40" height="3" fill="#d2a8ff" rx="1" class="px" style="animation: type4 3s steps(1) infinite;"/>
+  <rect x="26" y="90" width="36" height="3" fill="#58a6ff" rx="1" class="px" style="animation: type5 3s steps(1) infinite;"/>
+  <rect x="26" y="96" width="20" height="3" fill="#7ee787" rx="1" class="px" style="animation: type6 3s steps(1) infinite;"/>
+  <!-- Cursor blink -->
+  <rect x="46" y="96" width="4" height="4" fill="#58a6ff" class="px" style="animation: blink 1s steps(1) infinite;"/>
+
+  <!-- Desk -->
+  <rect x="10" y="128" width="130" height="6" fill="#21262d" class="px"/>
+
+  <!-- Character body -->
+  <!-- Head -->
+  <rect x="115" y="68" width="16" height="16" fill="#c9a96e" class="px"/>
+  <!-- Hair -->
+  <rect x="113" y="66" width="20" height="6" fill="#3d1f00" class="px"/>
+  <rect x="113" y="66" width="4" height="12" fill="#3d1f00" class="px"/>
+  <!-- Eyes -->
+  <rect x="118" y="73" width="2" height="2" fill="#1a1a2e" class="px"/>
+  <rect x="123" y="73" width="2" height="2" fill="#1a1a2e" class="px"/>
+  <!-- Glasses -->
+  <rect x="117" y="72" width="5" height="4" fill="none" stroke="#58a6ff" stroke-width="1" class="px"/>
+  <rect x="122" y="72" width="5" height="4" fill="none" stroke="#58a6ff" stroke-width="1" class="px"/>
+  <!-- Mouth -->
+  <rect x="120" y="79" width="5" height="1" fill="#7d4e2d" class="px"/>
+
+  <!-- Body / shirt -->
+  <rect x="112" y="84" width="22" height="22" fill="#6e40c9" class="px"/>
+  <!-- Collar -->
+  <rect x="119" y="84" width="8" height="4" fill="#c9a96e" class="px"/>
+
+  <!-- Arms -->
+  <g style="animation: arm 0.6s steps(1) infinite;">
+    <rect x="100" y="84" width="12" height="6" fill="#6e40c9" class="px"/>
+    <rect x="97" y="89" width="6" height="4" fill="#c9a96e" class="px"/>
+  </g>
+  <rect x="134" y="84" width="12" height="6" fill="#6e40c9" class="px"/>
+  <rect x="143" y="89" width="6" height="4" fill="#c9a96e" class="px"/>
+
+  <!-- Keyboard -->
+  <rect x="97" y="124" width="42" height="6" fill="#30363d" rx="1" class="px"/>
+  <rect x="99" y="125" width="4" height="3" fill="#484f58" class="px"/>
+  <rect x="105" y="125" width="4" height="3" fill="#484f58" class="px"/>
+  <rect x="111" y="125" width="4" height="3" fill="#484f58" class="px"/>
+  <rect x="117" y="125" width="4" height="3" fill="#484f58" class="px"/>
+  <rect x="123" y="125" width="4" height="3" fill="#484f58" class="px"/>
+  <rect x="129" y="125" width="8" height="3" fill="#58a6ff" class="px"/>
+
+  <!-- Legs / chair -->
+  <rect x="116" y="106" width="14" height="12" fill="#30363d" class="px"/>
+  <rect x="110" y="116" width="26" height="8" fill="#21262d" class="px"/>
+  <rect x="110" y="122" width="6" height="8" fill="#30363d" class="px"/>
+  <rect x="130" y="122" width="6" height="8" fill="#30363d" class="px"/>
+</g>
+
+<!-- === TERMINAL TEXT (right side) === -->
+<g transform="translate(180, 50)">
+
+  <!-- Terminal window -->
+  <rect x="0" y="0" width="460" height="130" fill="#161b22" rx="6" class="px"/>
+  <!-- Title bar -->
+  <rect x="0" y="0" width="460" height="20" fill="#21262d" rx="6" class="px"/>
+  <rect x="0" y="10" width="460" height="10" fill="#21262d" class="px"/>
+  <!-- Dots -->
+  <circle cx="14" cy="10" r="4" fill="#ff5f57"/>
+  <circle cx="26" cy="10" r="4" fill="#febc2e"/>
+  <circle cx="38" cy="10" r="4" fill="#28c840"/>
+  <!-- Title -->
+  <text x="230" y="14" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle">barbara@dev: ~</text>
+
+  <!-- Prompt line -->
+  <text x="14" y="42" font-family="monospace" font-size="11" fill="#7ee787">&#10095;</text>
+  <text x="26" y="42" font-family="monospace" font-size="11" fill="#58a6ff">python</text>
+  <text x="68" y="42" font-family="monospace" font-size="11" fill="#c9d1d9">greet.py</text>
+
+  <!-- Output letters appearing one by one -->
+  <text x="14" y="62" font-family="monospace" font-size="13" fill="#d2a8ff" style="animation: type1 2s steps(1) infinite;">P</text>
+  <text x="22" y="62" font-family="monospace" font-size="13" fill="#d2a8ff" style="animation: type2 2s steps(1) infinite;">r</text>
+  <text x="30" y="62" font-family="monospace" font-size="13" fill="#d2a8ff" style="animation: type3 2s steps(1) infinite;">i</text>
+  <text x="35" y="62" font-family="monospace" font-size="13" fill="#d2a8ff" style="animation: type4 2s steps(1) infinite;">n</text>
+  <text x="43" y="62" font-family="monospace" font-size="13" fill="#d2a8ff" style="animation: type5 2s steps(1) infinite;">t</text>
+  <text x="51" y="62" font-family="monospace" font-size="13" fill="#d2a8ff" style="animation: type6 2s steps(1) infinite;">(</text>
+  <text x="58" y="62" font-family="monospace" font-size="13" fill="#ff7b72" style="animation: type7 2s steps(1) infinite;">"</text>
+  <text x="66" y="62" font-family="monospace" font-size="13" fill="#ff7b72" style="animation: type8 2s steps(1) infinite;">Hello, I'm B&#225;rbara!</text>
+  <text x="286" y="62" font-family="monospace" font-size="13" fill="#ff7b72" style="animation: type8 2s steps(1) infinite;">"</text>
+  <text x="294" y="62" font-family="monospace" font-size="13" fill="#d2a8ff" style="animation: type8 2s steps(1) infinite;">)</text>
+
+  <!-- Blinking cursor -->
+  <rect x="308" y="51" width="7" height="13" fill="#58a6ff" class="px" style="animation: blink 1s steps(1) infinite;"/>
+
+  <!-- Result line -->
+  <text x="14" y="84" font-family="monospace" font-size="18" font-weight="bold" fill="#ffffff" style="animation: glow-text 2s ease-in-out infinite; letter-spacing:1px;">Hello, I'm B&#225;rbara! &#128105;&#127995;&#8205;&#128187;</text>
+
+  <!-- Bottom prompt -->
+  <text x="14" y="108" font-family="monospace" font-size="11" fill="#7ee787">&#10095;</text>
+  <rect x="26" y="98" width="7" height="13" fill="#7ee787" class="px" style="animation: blink 1s steps(1) infinite;"/>
+
+  <!-- Scanline effect -->
+  <rect x="0" y="20" width="460" height="2" fill="#58a6ff" opacity="0.04" rx="0" style="animation: scanline 3s linear infinite;"/>
+</g>
+
+<!-- Corner decorations pixel style -->
+<rect x="4" y="4" width="6" height="6" fill="#6e40c9" class="px"/>
+<rect x="670" y="4" width="6" height="6" fill="#6e40c9" class="px"/>
+<rect x="4" y="190" width="6" height="6" fill="#6e40c9" class="px"/>
+<rect x="670" y="190" width="6" height="6" fill="#6e40c9" class="px"/>
+</svg>
