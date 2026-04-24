@@ -1,7 +1,9 @@
 <div align="center">
 
 
-# Olá, eu sou a Bárbara! 👩🏻‍💻
+```python
+Print("Hello, I'm Bárbara!") 👩🏻‍💻
+```
 
 **`Specialist Software Developer · C# & .NET`**
 
